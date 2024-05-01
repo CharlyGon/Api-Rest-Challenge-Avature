@@ -1,0 +1,12 @@
+{
+    "development": {
+        "dialect": "sqlite",
+        "storage": "./database/dev.sqlite3",
+        "port": 5000
+    },
+    "test": {
+        "dialect": "sqlite",
+        "storage": "./database/test.sqlite3",
+        "port": 4000
+    }
+}
